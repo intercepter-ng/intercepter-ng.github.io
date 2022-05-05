@@ -15,12 +15,12 @@ body
    background-color: #000000;
    color: #000000;
    font-family: Arial;
+   font-weight: normal;
    font-size: 13px;
+   line-height: 1.1875;
    margin: 0;
    text-align: center;
 }
-</style>
-<style type="text/css">
 a
 {
    color: #0000FF;
@@ -38,6 +38,10 @@ a:hover
 {
    color: #0000FF;
    text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
 }
 a.style2
 {
@@ -79,13 +83,13 @@ a.style3:hover
    color: #DC143C;
    text-decoration: none;
 }
-</style>
-<style type="text/css">
 #wb_Text1 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   background-image: none;
+   border: 0px solid #000000;
    padding: 0;
+   margin: 0;
    text-align: center;
 }
 #wb_Text1 div
@@ -95,8 +99,10 @@ a.style3:hover
 #wb_Text5 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   background-image: none;
+   border: 0px solid #000000;
    padding: 0;
+   margin: 0;
    text-align: left;
 }
 #wb_Text5 div
@@ -106,8 +112,10 @@ a.style3:hover
 #wb_Text6 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   background-image: none;
+   border: 0px solid #000000;
    padding: 0;
+   margin: 0;
    text-align: left;
 }
 #wb_Text6 div
@@ -117,8 +125,10 @@ a.style3:hover
 #wb_Text2 
 {
    background-color: transparent;
-   border: 0px #000000 solid;
+   background-image: none;
+   border: 0px solid #000000;
    padding: 0;
+   margin: 0;
    text-align: center;
 }
 #wb_Text2 div
@@ -127,7 +137,13 @@ a.style3:hover
 }
 #Image1
 {
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 </style>
 </head>
@@ -135,15 +151,15 @@ a.style3:hover
 <div id="container">
 <div id="wb_Text1" style="position:absolute;left:0px;top:215px;width:116px;height:285px;text-align:center;z-index:0;">
 <span style="color:#FF0000;font-family:Arial;font-size:16px;"><strong><a href="./index.html" class="style2">News</a></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><a href="./index.html" class="style2"><br></a><br></strong></span><span style="color:#FF0000;font-family:Arial;font-size:16px;"><strong><a href="./download.html" class="style2">Download<br></a><br><a href="./videos.html" class="style2">Videos</a><br><br><a href="./papers.html" class="style2">Papers</a><br><br><a href="http://intercepterng.boards.net/" class="style2">Forum</a><br><br><a href="http://sniff.su/wiki/index.html" class="style2">Wiki</a><br><br><a href="./contacts.html" class="style2">Contacts</a><br><br><a href="./about.html" class="style2">About</a></strong></span></div>
-<div id="wb_Text5" style="position:absolute;left:158px;top:215px;width:660px;height:185px;z-index:1;text-align:left;">
+<div id="wb_Text5" style="position:absolute;left:158px;top:215px;width:660px;height:185px;z-index:1;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><br><br><a href="Actuality_of_SMBRelay_in_Modern_Windows_Networks.pdf" class="style3">Actuality of SMBRelay in Modern Windows Networks</a></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><br><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><a href="SMB_Hijacking.Kerberos_is_defeated.pdf" class="style3">SMB Hijacking. Kerberos is defeated</a><br><br><a href="LDAP Relay. NTLM strikes back again.pdf" class="style3">LDAP Relay. NTLM strikes back again</a></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><br><a href="Group Policy Hijacking.pdf" class="style3">Group Policy Hijacking</a></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:12px;"><strong><br></strong></span></div>
-<div id="wb_Text6" style="position:absolute;left:158px;top:183px;width:193px;height:44px;z-index:2;text-align:left;">
+<div id="wb_Text6" style="position:absolute;left:158px;top:183px;width:193px;height:44px;z-index:2;">
 <span style="color:#FF0000;font-family:Arial;font-size:24px;"><strong><em>Papers<br></em></strong></span></div>
 <div id="wb_Text2" style="position:absolute;left:198px;top:122px;width:403px;height:35px;text-align:center;z-index:3;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:15px;"><strong>With great power comes great responsibility.<br></strong>© ares, 2006-2016</span></div>
 
 <div id="wb_Image1" style="position:absolute;left:193px;top:0px;width:415px;height:116px;z-index:5;">
-<img src="images/splash.jpg" id="Image1" alt="" style="width:415px;height:116px;"></div>
+<img src="images/splash.jpg" id="Image1" alt=""></div>
 </div>
 </body>
 </html><script type="text/javascript">
